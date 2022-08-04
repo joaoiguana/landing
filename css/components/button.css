@@ -1,0 +1,15 @@
+.btn-primary {
+  background: linear-gradient(#FA2FB5, #31087B);
+  color: white;
+  font-size:18px;
+  padding: 12px 26px;
+  transition: 1s ease;
+  border-radius:20px;
+  opacity: 70%;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(#31087B, #FA2FB5);
+  color: white;
+  opacity: 100%;
+}

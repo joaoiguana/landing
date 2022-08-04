@@ -1,0 +1,28 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.card > img {
+  height: 100px;
+}
+
+
+
+@media (max-width: 720px) {
+  /* For a screen < 960px, this CSS will be read */
+  .cards {
+    width: 100%;
+  }
+}
